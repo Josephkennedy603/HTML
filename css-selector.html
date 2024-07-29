@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css selector</title>
+    <style>
+      * {
+        margin: 0;
+        background-color: #e1c9d6;
+      }
+      h1 {
+        color: blue;
+        border: 1px solid black;
+        text-align: center;
+      }
+      #pcolor {
+        color: blueviolet;
+        border: dotted 2px blue;
+      }
+      .same {
+        text-align: center;
+        color: red;
+        border: solid 2px blue;
+        border-radius: 15px;
+      }
+      #dash {
+        border: dashed 2px black;
+      }
+
+      #dotted {
+        border: dotted 3px red;
+        border-radius: 15px;
+      }
+
+      #double {
+        border: double 5px black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is red Heading</h1>
+    <br />
+    <p id="pcolor">this is center paragraph</p>
+    <br />
+    <p class="same">this is same red color</p>
+    <br />
+    <p class="same">this is same red color</p>
+    <br />
+    <h1 id="dash">This is dashed</h1>
+    <br />
+
+    <h1 id="dotted">This is dotted</h1>
+    <br />
+
+    <h1 id="double">This is double</h1>
+  </body>
+</html>
